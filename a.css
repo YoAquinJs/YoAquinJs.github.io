@@ -1,0 +1,54 @@
+body{
+	background: #7F91AA;
+	min-height: 200vh;
+}
+
+#v1{
+	position: absolute;
+	top: 15vh;
+	left: 25%;
+}
+
+#v2{
+	position: absolute;
+	top: 80vh;
+	left: 25%;
+}
+
+#v3{
+	position: absolute;
+	top: 125vh;
+	left: 25%;
+}
+
+/*Text*/
+#text{
+	position: absolute;
+	left: 3%;
+	right: 63%;
+	top: 15vh;
+	color: white;
+	font-size: 1.5em;
+}
+
+/*Video*/
+#video{
+	position: absolute;
+	left: 45%;
+	right: 0;
+	top: 15vh;
+}
+
+/*vaina*/
+#reference{
+	position: absolute;
+	left: 20%;
+	right: 20%;
+	text-align: center;
+	top: 100vh;
+}
+
+#reference a{
+	text-decoration: none;
+	font-size: 4em;
+}

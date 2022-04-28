@@ -1,59 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" content="width=device-width, initial-scale=1">
-    <title>Web Page</title>
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <!-- Montserrat Subrayada -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
-        <!-- ABeeZee -->
-    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <script src="javascript/background.js"></script>
+	<meta charset="UTF-8">
+	<title>Web Page</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="index.css">
+	<script type="text/javascript" src="index.js"></script>
 </head>
 <body>
+	<header>
+	</header>
+
     <!-- Navegation bar -->
     <nav style="z-index:1">
         <ul>
-            <li><a class="nav-item unselectable" href="index.html">Home</a></li>
-            <li><a class="nav-item unselectable" href="trigonometry.html">Trigonometría</a></li>
-            <li><a class="nav-item unselectable" href="derivates.html">Derivadas</a></li>
-            <li><a class="nav-item unselectable" href="parabolic.html">Parabólico</a></li>
-            <li><a class="nav-item unselectable" href="torque.html">Torques</a></li>
+            <li><a class="selected unselectable" href="index.html">Principal</a></li>
+            <li><a class="unselectable" href="a.html">TPN</a></li>
+            <li><a class="unselectable" href="#">Conflictos</a></li>
+            <li><a class="unselectable" href="#">OIEA</a></li>
+            <li><a class="unselectable" href="#">Colombia</a></li>
         </ul> 
     </nav>
 
-    <!-- Title -->
-    <header>
-        <h2 data-speed="-2.5" class="layer unselectable">Matemáticas
-        </h2>
-        <h2 data-speed="2.5" class="layer unselectable">Física
-        </h2>
-    </header>
+    <!-- Content -->
 
-    <!-- Background -->
-    <section style="z-index: -1;">
-        <img src="images/1.png"  data-speed="10" class="layer unselectable">
-        <img src="images/2.png"  data-speed="11" class="layer unselectable">
-        <img src="images/3.png"  data-speed="2"  class="layer unselectable">
-        <img src="images/4.png"  data-speed="6"  class="layer unselectable">
-        <img src="images/5.png"  data-speed="9"  class="layer unselectable">
-        <img src="images/6.png"  data-speed="8"  class="layer unselectable">
-        <img src="images/7.png"  data-speed="4"  class="layer unselectable">
-        <img src="images/8.png"  data-speed="-9" class="layer unselectable">
-        <img src="images/9.png"  data-speed="6"  class="layer unselectable">
-        <img src="images/10.png" data-speed="-7" class="layer unselectable">
-        <img src="images/11.png" data-speed="-1" class="layer unselectable">
-        <img src="images/12.png" data-speed="5"  class="layer unselectable">
-    </section>
+    <!-- Introduction -->
+    <div id="introduction">
+	Desde el comienzo de la era nuclear, después del uso de armas nucleares en Hiroshima y Nagasaki en 1945, quedó claro que los países que desarrollaran capacidades nucleares permitirían el desvío de tecnología y materiales para la producción de armas nucleares. .. Por lo tanto, la cuestión de prevenir tal cambio se ha convertido en un tema central en el debate sobre el uso pacífico de la energía nuclear. 
+	Los esfuerzos por construir un sistema internacional que permitiera a todos los países acceder a las salvaguardias adecuadas, iniciados en 1946, no lograron este objetivo en 1949 debido a las graves diferencias políticas entre las grandes potencias. En ese momento, Estados Unidos y la antigua Unión Soviética probaron armas nucleares y comenzaron a almacenarlas en el arsenal. En diciembre de 1953, el presidente de los Estados Unidos, D. Eisenhower, presentó a la 8ª Asamblea General de la Asamblea General de las Naciones Unidas una propuesta de "Átomos para la paz" y pidió la creación de una organización internacional.
+    </div>
 
-    <footer style="z-index: -2;">
-        <h2 class="unselectable">Juan Sebastián González~10A</h2>
-    </footer>
+    <img src="indeximg1.jpg" id="img1">
+    <img src="indeximg2.jpg" id="img2">
+
+    <!-- Question -->
+    <div id="question">
+    	¿Como las armas nucleares afectan la política internacional y como la afecta el TNP?
+    </div>
+
+    <!-- Video -->
+	<iframe id="video" width="850" height="500" src="https://www.youtube.com/embed/9Fb-1UDmW_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!-- Footer -->
+	<footer>
+		<p style="padding: 0.5%;">
+		Laura Portela González. Daniela Moreno Carvajal. Simón Andrés Romero. Juan Sebastián Gonzales.
+		<p>
+	</footer>
 </body>
 </html>

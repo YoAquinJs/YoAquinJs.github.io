@@ -1,0 +1,58 @@
+body{
+	background: #7F91AA;
+	min-height: 200vh;
+}
+
+/*Background*/
+#background{
+	position: absolute;
+	top: 55%;
+	left: 30%;
+	width: 40	%;
+	height: 36vh;
+	opacity: 80%;
+	overflow: hidden;
+	display: flex;
+}
+
+/*Introduction*/
+#introduction{
+	position: absolute;
+	left: 7%;
+	right: 40%;
+	top: 22vh;
+	color: white;
+	font-size: 1.6em;
+}
+
+/*Question*/
+#question{
+	position: absolute;
+	width: 100%;
+	top: 94vh;
+	color: white;
+	font-size: 4em;
+	text-align: center;
+}
+
+/*Video*/
+#video{
+	position: absolute;
+	left: 23%;
+	right: 15%;
+	top: 120vh;
+}
+
+#img1{
+	position: absolute;
+	left: 65%;
+	width: 27%;
+	top: 15vh;
+}
+
+#img2{
+		position: absolute;
+	left: 65%;
+	width: 27%;
+	top: 52vh;
+}
